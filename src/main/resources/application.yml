@@ -1,0 +1,19 @@
+server:
+ port: 8083
+
+kafka:
+ consumer:
+  bootstrap: localhost:9092
+  #bootstrap: internal-acfce30b22cb511e998ca0a48406bdfd-1900327182.us-east-1.elb.amazonaws.com:443
+  group: WorkUnitApp
+  #topic: workunits
+  topic: test1
+
+
+spring:
+ couchbase:
+  bootstrap-hosts: localhost
+  auto-index: true
+  bucket:
+   name: SAMPLE
+   password: password
