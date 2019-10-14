@@ -14,7 +14,7 @@
 2.in docker file makes sure application.properties are overridden with -Dprops
 
 3.run docker compose file for spring-boot to start in the same network
-4.verify by posting json to localhost:8080/employee/add 
+4.verify by posting json to localhost:8080/employee/add .
 
 
 
